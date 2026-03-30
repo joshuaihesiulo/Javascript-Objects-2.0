@@ -12,8 +12,8 @@ let students=
 console.log(students)
 let average = 0
 
-for(i=0; i<students.length; i++){
-    console.log(students.score)
-    // average= students.score[i] / students.score[i].length
-    // console.log(average)
+for(i=0; i<students.score.length; i++){
+    console.log(students.score[i])
+    average= students.score[i] / students.score[i].length
+    console.log(average)
 }
